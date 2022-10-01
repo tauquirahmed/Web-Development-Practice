@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        iframe.frame1 {
+            height: 450px;
+            width: 500px;
+            border: 2px solid black;
+        }
+
+        iframe.frame2 {
+            height: 450px;
+            width: 900px;
+            border: 2px solid black;
+        }
+
+        iframe.frame3 {
+            height: 400px;
+            width: 900px;
+            border: 2px solid black;
+        }
+
+        div#main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        img {
+            height: 450px;
+            width: 500px;
+            border: 2px solid black;
+        }
+
+        div.see {
+            height: 46px;
+            font-size: 43px;
+            text-align: center;
+            background-color: black;
+            color: whitesmoke;
+            border: 2px solid rgb(50, 245, 164);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div>
+
+            <img src="https://images.unsplash.com/photo-1504863872862-a26e5582ba80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1091&q=80" alt="">
+        </div>
+        <div>
+            <div class="see">Click on Any Topic To See The Video !!</div>
+            <iframe src="" name="iframe3" frameborder="0" class="frame3"></iframe>
+        </div>
+        <div>
+            <iframe src="" name="iframe2" frameborder="0" class="frame2"></iframe>
+        </div>
+        <div>
+            <iframe src="iframe1.html" frameborder="0" class="frame1"></iframe>
+        </div>
+
+    </div>
+</body>
+
+</html>
